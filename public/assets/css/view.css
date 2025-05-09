@@ -1,0 +1,65 @@
+.product-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image {
+    width: 500px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    color: #e44d26;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    line-height: 1.6;
+    color: #555;
+}
+.galeri__content {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    width: 1000px; /* Atur lebar menjadi 50% dari elemen induk */
+    height: 100%; /* Atur panjang (tinggi) menjadi 80% dari elemen induk */
+    margin-right: 50px; /* Atur jarak dari pojok kiri di sini */
+    margin-left: 50px; /* Atur jarak dari pojok kiri di sini */
+}
+.galeri__content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.galeri__content {
+    padding-right: 1.5rem;
+}
+.galeri__content {
+    padding: 1rem 0 1rem 1.5rem;
+}
+.galeri__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.galeri__container {
+    grid-template-columns: max-content;
+    justify-content: center;
+}
