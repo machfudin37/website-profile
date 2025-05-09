@@ -1,11 +1,11 @@
 <h1 align="center">Selamat datang di Website Profile! 👋</h1>
 
  ### Halaman Admin
-![Admin Panel](https://github.com/adeskriwil/website-profile/blob/main/ui-admin.PNG?raw=true)
+![Admin Panel](https://github.com/machfudin/website-profile/blob/main/tampilan/ui-admin.PNG?raw=true)
 
 
  ### Halaman User
-![User Interface](https://github.com/adeskriwil/website-profile/blob/main/ui-user.PNG?raw=true)
+![User Interface](https://github.com/machfudin37/website-profile/blob/main/tampilan/ui-user.PNG?raw=true)
 
 ------------
 
@@ -28,14 +28,19 @@ Website Profile merupakan aplikasi yang dibuat untuk menampilkan profile dari su
 git clone https://github.com/machfudin37/website-profile.git
 ```
 
-2. **Buka source code dengan text editor lalu ketikan perintah berikut pada terminal**
-**untuk memasukan database pada mysql:**
+2. **Buka source code dengan text editor**
+
+3. **ketikan perintah berikut di terminal untuk memasukan database pada mysql:**
 ```bash
 php artisan migrate
 ```
-**untuk memasukan isi database pada mysql:**
+4. **ketikan perintah berikut di terminal untuk memasukan isi database pada mysql:**
 ```bash
 php artisan db:seed
 ```
 
-3. **Buka ```localhost/elibrary``` untuk menjalankan aplikasi**
+5. **ketikan perintah berikut di terminal untuk menjalankan website**
+```bash
+php artisan serve
+```
+6. **Buka ```localhost:8000/``` untuk menjalankan website**
