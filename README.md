@@ -1,11 +1,11 @@
 <h1 align="center">Selamat datang di Website Profile! 👋</h1>
 
  ### Halaman Admin
-![Admin Panel](https://github.com/machfudin/website-profile/blob/main/tampilan/ui-admin.PNG?raw=true)
+![Admin Panel](https://github.com/machfudin37/website-profile/blob/main/tampilan/ui-admin.png?raw=true)
 
 
  ### Halaman User
-![User Interface](https://github.com/machfudin37/website-profile/blob/main/tampilan/ui-user.PNG?raw=true)
+![User Interface](https://github.com/machfudin37/website-profile/blob/main/tampilan/ui-user.png?raw=true)
 
 ------------
 
